@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "sample_package"
+version = "0.1.0"
+description = ""
+authors = ["Sasa Cocic <sasacocic@example.com>"]
+# readme = "README.md"
+# license = "BSD"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
