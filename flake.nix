@@ -1,8 +1,6 @@
 {
   description = "Sasa's flake templates";
 
-
-
   outputs = { self, ... }: {
 
     templates = {
