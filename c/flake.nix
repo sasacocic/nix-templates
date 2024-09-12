@@ -13,7 +13,7 @@
       {
         devShells.default = pkgs.mkShell {
           buildInputs = [
-            pkgs.libgcc
+            pkgs.gcc14
           ];
         };
       });
