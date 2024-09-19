@@ -12,6 +12,14 @@
         path = ./c;
         description = "C hello world program";
       };
+      go = {
+        path = ./go;
+        description = "Go hello world";
+      };
+      bootstrap = {
+        path = ./bootstrap;
+        description = "boilerplate for a new template";
+      };
     };
   };
 }
