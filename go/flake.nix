@@ -2,7 +2,7 @@
   description = "go hello world";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+    nixpkgs.url = "github:NixOS/nixpkgs";
     flake-utils.url = "github:numtide/flake-utils";
   };
 
@@ -14,7 +14,7 @@
       in
       {
         devShells.default = pkgs.mkShell {
-          buildInupts = [
+          buildInputs = [
             pkgs.go
           ];
         };
