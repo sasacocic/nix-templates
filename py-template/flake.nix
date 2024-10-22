@@ -13,6 +13,7 @@
           buildInputs = [
             pkgs.python312
             pkgs.poetry
+	    pkgs.pyright
           ];
         };
       }
