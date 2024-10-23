@@ -5,7 +5,7 @@
 
     templates = {
       python = {
-        path = ./py-template;
+        path = ./python;
         description = "A simple python project setup with poetry";
       };
       c = {
