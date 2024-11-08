@@ -23,6 +23,7 @@
           buildInputs = [
             pkgs.go
             pkgs.gopls
+            pkgs.reflex
           ];
         };
       }
