@@ -14,6 +14,10 @@
           path = ./c;
           description = "C hello world program";
         };
+        cpp = {
+          path = ./cpp;
+          description = "CPP hello world";
+        };
         go = {
           path = ./go;
           description = "Go hello world";
