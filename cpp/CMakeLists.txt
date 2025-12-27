@@ -15,13 +15,13 @@ FetchContent_Declare(
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 
-add_executable(my_project main.cpp)
+add_executable(my_project src/main.cpp)
 
 enable_testing()
 
 add_executable(
   hello_test
-  hello_test.cpp
+  tests/hello_test.cpp
 )
 
 target_link_libraries(
