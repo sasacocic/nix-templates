@@ -28,6 +28,7 @@
 
           packages = [
             pkgs.cmake
+            pkgs.llvmPackages_21.clang-tools
             pkgs.llvmPackages_21.libcxxClang
             pkgs.llvmPackages_21.llvm
             pkgs.llvmPackages_21.libllvm
