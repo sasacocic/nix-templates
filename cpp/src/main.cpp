@@ -1,9 +1,5 @@
 
 
+#include <print>
 
-
-#include <iostream>
-
-int main() {
-    std::print("{}, world", "hello");
-}
+int main() { std::print("{}, world", "hello"); }
